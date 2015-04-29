@@ -1,0 +1,509 @@
+/* 
+Theme Name: Ukrain Fest
+Theme URL: http://travel/
+Description: Опис теми це моя власна теми =)))
+Version:1.0
+Author:Павльо Юрій
+*/
+/* CSS Document */
+
+/* початок опису шапки*/
+
+* {
+	padding:0; margin:0;
+}
+
+body {
+	background: url(imges/548517.jpg) center top no-repeat; background-color:#0a1119;
+}
+.main {
+	width:970px; margin:0 auto;
+}
+   .head {
+	   height: 250px;
+   }
+	.head a{
+		font:38px "Arial"; color:#e11734; text-decoration:none; float:right;  margin: 35px 0 0 30px;
+	} /*Ukr Fest*/
+		.head a span {
+			color:#6a1420;
+		}
+	.menu{
+		list-style: none; background:#2d233e; overflow:hidden; border-radius:15px 15px 0 0 ;
+	}
+.contant-main {
+	background:#f7f7f7; border:1px solid #FFFFFF; overflow:hidden; border-radius:15px 15px;
+}
+		.menu li {
+			float:left; padding: 15px 35px;
+		}
+			.menu li a {
+				font:18px "Century Gothic" ; color:#FFFFFF; text-decoration:none;
+			}
+			.menu li a:hover {
+				font:18px "Century Gothic" ; color:#FFFFFF; text-decoration: underline;
+			}
+		.search-main {
+			float:right; margin:-55px 25px 0 0;
+		}
+		.search-txt {
+			height: 23px; width: 230px; border:1px solid:#FFF; margin: 0 10px 0 0; border-radius: 4px;
+		}
+		.search-btn {
+			position:relative; top:12px;
+		}
+
+/* Кінець опису шапки */		
+
+/* Контент*/
+.content {
+	width:700px; float:left; margin:0 0 0 20px;
+	}
+	.post-main {
+		background:#f8f6f7; border:1px solide #f0d4d4; border-radius: 15px; margin:0 0 30px 0;
+		overflow:hidden;
+	}
+		.post-main h1 {
+			font:normal 24px "Tahoma" ; color:#7d4f66; background:#e7e1e4; border-radius: 15px 15px 0 0 ; padding: 5px 20px 8px 15px; margin:0 0 5px 0;
+		}
+			.post-main h1 a {
+				font:normal 24px "Tahoma" ; color:#7d4f66; text-decoration:none;
+			}
+			.post-main h1 span {
+				font:normal 14px "Tahoma" ; color:#7d4f66; text-decoration:none;
+			}
+			.post-main h1 a:hover {
+				font:normal 24px "Tahoma" ; color:#7d4f66; text-decoration:underline;
+			}
+			
+			.imgstyle {
+				float:left; margin:0 15px 5px 0; 
+			}
+			.post {
+				margin:0 15px 15px 15px;
+			} 
+				.post p {
+					font: 12px "Verdana"; color#000000; margin: 0 0 15px 0;
+				}
+				.post p a {
+					color:#3f282f ; text-decoration:underline;
+				}
+				.post p a:hover {
+					color:#3f282f ; text-decoration:none;
+				}
+/* Кінець контенту*/		
+		
+/*Настройка вікна категорій*/
+.sidebar {
+	width:200px; float:right; margin:0 15px 0 20px;
+}
+	.vidget {
+		background:#e7e1e4; border:1px solid  #d7d3d4; border-radius: 8px; 
+	}
+		.vidget h2 { 
+		font:20px "Century Gothic" ; background:#2d233e; color:#FFFFFF; text-align:center; padding:5px 0 ;border-radius: 8px 8px 0 0;
+		}
+			.vidget ul {
+				list-style:none; padding:25px 15px;
+			}
+				/*налащтування ліній розділення*/
+				.vidget ul li {
+					border-bottom:1px solid #c8bbbd;border-top:1px solid #ffffff; padding:5px 0 5px 20px;
+				}
+				.vidget ul li:first-child {
+					border-top:none;
+				}
+				.vidget ul li:last-child {
+					border-bottom:none;
+				}
+				/*end налащтування ліній розділення*/
+					.vidget ul li a { font:16px "Century Gothic"; color:#5A2526;text-decoration:underline; 
+					}
+					.vidget ul li a:hover { font:16px "Century Gothic";
+color:#5A2526;text-decoration:none; 
+					}
+/*end Настройка вікна категорій*/
+/*налаштування низу*/
+.footer {
+	overflow:hidden; pading:90px 50px; 
+}
+	  
+	.foot-cpu, .foot-menu-kat,.foot-stranicu {
+		float:left; margin: 50px 150px 50px 10px;
+	}
+	.foot-cpu a span {
+		color:#dad5d3;
+	}
+	.foot-cpu p {
+		font:14px "Verdana"; color:#c4c1c0; 
+	}
+	.foot-cpu a{
+		font:28px "Century Gothic"; color:#6a1420; text-decoration:none;   margin:40px 40px 10px 0;
+	}
+	
+		.foot-menu-kat h2 ,.foot-stranicu h2 {
+			font:24px "Century Gothic"; color:#c4c1c0; 
+		}
+		.foot-menu-kat ul,.foot-stranicu ul {
+			list-style:none; 
+		}
+			.foot-menu-kat ul li a ,.foot-stranicu ul li a {
+			font:14px "Verdana"; color:#c4c1c0;
+			}
+			.foot-menu-kat ul li a:hover,.foot-stranicu ul li a:hover {
+			font:14px "Verdana"; color:#c4c1c0; text-decoration:none;
+			}
+			
+/*end налаштування низу*/
+
+/*-------------------------------------новий сss-------------*/
+
+
+/* CSS Document  слайдера*/
+
+#slider-wrapper{
+			width: 967px;
+			height: 280px;
+			margin: 0px 0 60px 0 ;
+			position: relative;
+			margin-bottom: 30px;
+			background: rgba(0,0,0,0.5);
+			overflow: hidden;
+		}
+		
+				#s1{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: -36px;
+					border-radius: 20px;
+					opacity: 0.5;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				#s2{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: -12px;
+					border-radius: 20px;
+					opacity: 0.5;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				#s3{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: 12px;
+					border-radius: 20px;
+					opacity: 0.5;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				#s4{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: 36px;
+					border-radius: 20px;
+					opacity: 0.5;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				#s5{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: 60px;
+					border-radius: 20px;
+					opacity: 0.5;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				#s6{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: 84px;
+					border-radius: 20px;
+					opacity: 0.5;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				
+				#s1:hover, #s2:hover, #s3:hover, #s4:hover, #s5:hover, #s6:hover { opacity: 1;}
+				
+			.inner-wrapper{
+				width: 967px;
+				height: 280px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				margin-bottom: 0px;
+				overflow: hidden;
+			}
+				.control{ display: none;}
+				
+				#Slide1:checked ~ .overflow-wrapper{ margin-left: 0%; }
+				#Slide2:checked ~ .overflow-wrapper{ margin-left: -100%; }
+				#Slide3:checked ~ .overflow-wrapper{ margin-left: -200%; }
+				#Slide4:checked ~ .overflow-wrapper{ margin-left: -300%; }
+				#Slide5:checked ~ .overflow-wrapper{ margin-left: -400%; }
+				#Slide6:checked ~ .overflow-wrapper{ margin-left: -500%; }
+				
+				#Slide1:checked + #s1 { opacity: 1; }
+				#Slide2:checked + #s2 { opacity: 1; }
+				#Slide3:checked + #s3 { opacity: 1; }
+				#Slide4:checked + #s4 { opacity: 1; }
+				#Slide5:checked + #s5 { opacity: 1; }
+				#Slide6:checked + #s6 { opacity: 1; }
+				
+			.overflow-wrapper{
+				width: 400%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				overflow-y: hidden;
+				z-index: 1;
+				-webkit-transition: all 0.5s ease-in-out;
+				-moz-transition: all 0.5s ease-in-out;
+				-o-transition: all 0.5s ease-in-out;
+				transition: all 0.5s ease-in-out;
+			}
+			
+				.slide img{
+					width:25%;
+					float: right;
+				}
+/* end CSS Document  слайдера*/
+
+/* титулки сторінок*/
+.page_title {
+	margin: 0 0 20px 0;
+	color: #3f282f;
+	font: 20px Verdana;
+	border-bottom: 1px dashed #ccc;
+}
+/* end титулки сторінок*/
+
+/* навігація сторінок опис стилю */
+.pagination{
+	margin: 20px;
+}
+	.pagination span,.pagination a {
+		background:#2d233e;
+		color: #FFF;
+		padding: 6px 12px;
+		text-decoration: none;
+		margin: 0;
+		border-radius: 4px;
+	}
+    .pagination span.current { /* Правила для поточної сторінки*/
+    	background: #6a1420;
+    	color: #FFF;
+    	border-radius: 4px;
+    }
+
+    .pagination a:hover {
+    	background: #6a1420;
+    }
+    .pagination span.dots{
+    	border: none;
+    }
+/*end навігація сторінок опис стилю */
+
+
+
+/* блок опису коментів з twentytwelve */
+* =Comments
+-------------------------------------------------------------- */
+
+.comments-title {
+	margin-bottom: 48px;
+	margin-bottom: 3.428571429rem;
+	font-size: 16px;
+	font-size: 1.142857143rem;
+	line-height: 1.5;
+	font-weight: normal;
+}
+.comments-area article {
+	margin: 24px 0;
+	margin: 1.714285714rem 0;
+}
+.comments-area article header {
+	margin: 0 0 48px;
+	margin: 0 0 3.428571429rem;
+	overflow: hidden;
+	position: relative;
+}
+.comments-area article header img {
+	float: left;
+	padding: 0;
+	line-height: 0;
+}
+.comments-area article header cite,
+.comments-area article header time {
+	display: block;
+	margin-left: 85px;
+	margin-left: 6.071428571rem;
+}
+.comments-area article header cite {
+	font-style: normal;
+	font-size: 15px;
+	font-size: 1.071428571rem;
+	line-height: 1.42857143;
+}
+.comments-area cite b {
+	font-weight: normal;
+}
+.comments-area article header time {
+	line-height: 1.714285714;
+	text-decoration: none;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	color: #5e5e5e;
+}
+.comments-area article header a {
+	text-decoration: none;
+	color: #5e5e5e;
+}
+.comments-area article header a:hover {
+	color: #21759b;
+}
+.comments-area article header cite a {
+	color: #444;
+}
+.comments-area article header cite a:hover {
+	text-decoration: underline;
+}
+.comments-area article header h4 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 6px 12px;
+	padding: 0.428571429rem 0.857142857rem;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	font-weight: normal;
+	color: #fff;
+	background-color: #0088d0;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #009cee, #0088d0);
+	background-image: -ms-linear-gradient(top, #009cee, #0088d0);
+	background-image: -webkit-linear-gradient(top, #009cee, #0088d0);
+	background-image: -o-linear-gradient(top, #009cee, #0088d0);
+	background-image: linear-gradient(top, #009cee, #0088d0);
+	border-radius: 3px;
+	border: 1px solid #007cbd;
+}
+.comments-area .bypostauthor cite span {
+	position: absolute;
+	margin-left: 5px;
+	margin-left: 0.357142857rem;
+	padding: 2px 5px;
+	padding: 0.142857143rem 0.357142857rem;
+	font-size: 10px;
+	font-size: 0.714285714rem;
+}
+.comments-area .bypostauthor cite b {
+	font-weight: bold;
+}
+a.comment-reply-link,
+a.comment-edit-link {
+	color: #686868;
+	font-size: 13px;
+	font-size: 0.928571429rem;
+	line-height: 1.846153846;
+}
+a.comment-reply-link:hover,
+a.comment-edit-link:hover {
+	color: #21759b;
+}
+.commentlist .pingback {
+	line-height: 1.714285714;
+	margin-bottom: 24px;
+	margin-bottom: 1.714285714rem;
+}
+
+/* Comment form */
+#respond {
+	margin-top: 48px;
+	margin-top: 3.428571429rem;
+}
+#respond h3#reply-title {
+	font-size: 16px;
+	font-size: 1.142857143rem;
+	line-height: 1.5;
+}
+#respond h3#reply-title #cancel-comment-reply-link {
+	margin-left: 10px;
+	margin-left: 0.714285714rem;
+	font-weight: normal;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+}
+#respond form {
+	margin: 24px 0;
+	margin: 1.714285714rem 0;
+}
+#respond form p {
+	margin: 11px 0;
+	margin: 0.785714286rem 0;
+}
+#respond form p.logged-in-as {
+	margin-bottom: 24px;
+	margin-bottom: 1.714285714rem;
+}
+#respond form label {
+	display: block;
+	line-height: 1.714285714;
+}
+#respond form input[type="text"],
+#respond form textarea {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 1.714285714;
+	padding: 10px;
+	padding: 0.714285714rem;
+	width: 100%;
+}
+#respond form p.form-allowed-tags {
+	margin: 0;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 2;
+	color: #5e5e5e;
+}
+.required {
+	color: red;
+}
+.commentlist .children {
+	margin-left: 48px;
+	margin-left: 3.428571429rem;
+}
+.comment article {
+	border-bottom: 1px solid #ccc;
+}
+/* end блок опису коментів з twentytwelve */
